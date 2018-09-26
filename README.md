@@ -3,7 +3,7 @@
 
 Our goal for this project was to correctly locate objects on a grid and connect them using a CNC XY Plotter. Since this project was made for a Mechatronics class, it works for the purpose of the project. With some modifications, the project could be applied to different tasks and become more robust.
 
-## A Summary of How the it Works
+## A Summary of How it Works
 
 Our team wanted to identifty the objects and send Gcode to the machine all within MATLAB. For the purposes of the project, our task was to locate "RED" and "GREEN" objects on a grid and connect them to "4" and "E" respectively. We implemented a neural network that was trained to recongnize a small set of colors. After training the neural network, our MATLAB functions will scan through a photo that was captured from an iPhone and identifty where the GREEN and RED objects are located on the grid. Once the objects are found, Gcode will be generated and sent to an Arduino running GRBL.
 
@@ -118,9 +118,9 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Acknowledgments
 
-* Sergio Rivera Lavado - Created circuit_to_gcode.m function. I followed his approach to createing Gcode files in MATLAB.
+* **Sergio Rivera Lavado** - Created circuit_to_gcode.m function. I followed his approach to createing Gcode files in MATLAB.
 	https://www.mathworks.com/matlabcentral/fileexchange/34965-circuit-to-gcode
-* lingib - Created Instructable on how to use GRBL with a PEN
+* **lingib** - Created Instructable on how to use GRBL with a PEN
 	http://www.instructables.com/id/How-to-Control-a-Servo-Using-GRBL/
 * **Andrew Ng** - For his Machine Learning course on Coursera. I structured the NN based on one of the projects we did in his class.
 	https://www.coursera.org/learn/machine-learning
